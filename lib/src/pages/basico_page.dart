@@ -60,7 +60,7 @@ class BasicoPage extends StatelessWidget {
   }
   
   Widget _crearImagen() {
-    return Container(
+    return const SizedBox(
       width: double.infinity,
       child: Image(
         image: NetworkImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mucubaji.jpg/1200px-Mucubaji.jpg"),
@@ -88,7 +88,7 @@ class BasicoPage extends StatelessWidget {
     'La laguna de Mucubají está situada entre 3625-3655 m s. n. m. en el Parque Sierra Nevada, en el estado Mérida de Venezuela. Es una de las más grandes de la región. Se cree que el nombre de la laguna se debe a cómo la nombraban los habitantes indígenas de la región. Mucubají significa en dicho idioma sitio del agua grande. La laguna es de origen glacial y tiene unos diez mil años de antigüedad. El curso original de la quebrada de Mucubají, que vertía sus aguas en el río Chama, fue sellada por una morrena frontal que formó la laguna y atravesada por la falla de Boconó, lo que desvió el flujo hacia el río Orinoco y finalmente el océano Atlántico.';
     
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+      padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
       child: Text(
         data,
         style: TextStyle(
