@@ -30,12 +30,12 @@ class ScrollPage extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: double.infinity,
-      color: Color.fromRGBO(108, 192, 218, 1.0),
+      color: const Color.fromRGBO(108, 192, 218, 1.0),
     );
   }
   
   Widget _imagenFondo() {
-    return SizedBox(
+    return const SizedBox(
       width: double.infinity,
       height: double.infinity,
       child: Image(
@@ -46,7 +46,7 @@ class ScrollPage extends StatelessWidget {
   }
   
   Widget _contenido() {
-    final estiloTexto = TextStyle(
+    const estiloTexto = TextStyle(
       fontSize: 50.0,
       color: Colors.white,
     );
@@ -56,8 +56,8 @@ class ScrollPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           const SizedBox(height: 20.0,),
-          Text("18°", style: estiloTexto,),
-          Text("Viernes", style: estiloTexto,),
+          const Text("18°", style: estiloTexto,),
+          const Text("Viernes", style: estiloTexto,),
           Expanded(child: Container()),
           const Icon(
             Icons.keyboard_arrow_down, 
