@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: 'basico',
       routes: {
-        'basico':(context) => BasicoPage(),
+        'basico':(context) => const BasicoPage(),
 
       },
     );
